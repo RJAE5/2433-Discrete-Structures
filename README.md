@@ -1,7 +1,5 @@
 # 2433-Discrete-Structures
 
-# 2143-OOP
-
 ## Rykir Evans
 
 #### Repo: 2433-Discrete-Structures
