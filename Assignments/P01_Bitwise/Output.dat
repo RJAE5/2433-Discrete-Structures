@@ -5,7 +5,6 @@ There are 7 test cases.
 
 k  HighestBit k2
 ------------------- 
-31      5    63      
 23456   15   56224   
 128     8    384     
 0       -1   1       

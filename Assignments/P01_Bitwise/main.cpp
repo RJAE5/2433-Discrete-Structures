@@ -35,17 +35,15 @@ using namespace std;
 // Function prototypes
 int findHigh(int k);                        
 int modHigh(int k, int index);
+void openFiles(ifstream& infile, ofstream& outfile);
 
 
 int main()
 {
-    // Create file readers/printers
     ifstream infile;
     ofstream outfile;
 
-    // Open in & out files
-    infile.open("HighBits.dat");
-    outfile.open("Output.dat");
+    openFiles(infile, outfile);
 
     // Read in number of test cases
     int testCases;
@@ -75,6 +73,37 @@ int main()
     infile.close();
     outfile.close();
 }// End main
+
+
+/*
+ * openFiles
+ *
+ * Description:
+ *      Prompts the user for file names and proceeds
+ *      to open those files.
+ *
+ * Params:
+ *  ifstream& - The file reader object
+ *  ofstream& - The file output object
+ *
+ * Returns:
+ *  void      - Returns nothing, all information passed back by &
+ */
+void openFiles (ifstream& infile, ofstream& outfile)
+{
+    char inFileName[40];
+    char outFileName[40];
+
+    //open input file
+    cout << "Enter the input file name: ";
+    cin >> inFileName;
+    infile.open(inFileName); 
+    
+    //open output file
+    cout << "Enter the output file name: ";
+    cin >> outFileName;
+    outfile.open(outFileName);
+}
 
 
 /*
