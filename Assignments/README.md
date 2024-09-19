@@ -2,4 +2,4 @@
 
 |  #  | Folder Link                             | Assignment Description                                                         |
 | :-: | --------------------------------------- | ------------------------------------------------------------------------------ |
-|  2  | [Program 1](./P01_Bitwise/README.md)    | [Overloading operators for fraction math](./P01_Bitwise/README.md)             |
+|  1  | [Program 1](./P01_Bitwise/README.md)    | [Bitwise operations on numbers](./P01_Bitwise/README.md)                       |
