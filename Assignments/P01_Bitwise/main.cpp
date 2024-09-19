@@ -15,14 +15,11 @@
 *                    setting the next highest bit to a 1 using
 *                    logical OR and displays the original integer,
 *                    the index of it's highest bit, and the modified
-*                    integer to an output file.
-*         
+*                    integer to an output file.    
 *
 *  Usage:            You may edit the list of input values to determine
 *                    the index of their highest bit, and the potential
 *                    value if the next highest bit were set to 1.
-*        
-*       
 *
 *  Files:             main.cpp
 *                     HighBits.dat
