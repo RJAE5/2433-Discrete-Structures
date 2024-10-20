@@ -19,7 +19,9 @@
 *
 *  Files:             main.cpp
 *                     Feynman.dat
-*                     output.dat
+*                     my_input.dat
+*                     Feynamn_output.dat
+*                     my_output.dat
 ************************************************************************/
 #include <iostream>
 #include <fstream>
