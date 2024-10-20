@@ -1,0 +1,15 @@
+Rykir Evans
+Square Summation Program 2
+
+There are 8 test cases.
+
+N     IterativeSum     RecursiveSum      Closed
+------------------------------------------------- 
+  9            285            285            285
+  0              0              0              0
+ -5              -              -              -
+  1              1              1              1
+  2              5              5              5
+  3             14             14             14
+ 16           1496           1496           1496
+ 22           3795           3795           3795
