@@ -8,7 +8,7 @@ This program reads from an input file to test how many total squares can be form
 
 |   #   | File                                        | Description                                              |
 | :---: | ------------------------------------------- | -------------------------------------------------------- |
-|   1   | [main.cpp](.main.cpp)                       | Main driver of my project that calls helper functions    |
+|   1   | [main.cpp](./main.cpp)                       | Main driver of my project that calls helper functions    |
 |   2   | [Feynman.dat](./Feynman.dat)                | Input file containing test cases for N                   |
 |   3   | [output.dat](./output.dat)                  | Formatted output file based on input file                |
 
