@@ -20,4 +20,4 @@ Run the program using `./main` and the program will prompt the user for file nam
 The responses to the console prompts should be `myInput.dat`, and `myOutput.dat` respectively.  
 
 #### Using [encrypt.cpp](./helper_encryption_program/)
-See [encrypt.cpp](./helper_encryption_program/)
+See [encrypt.cpp](./helper_encryption_program/) for detailed instructions on use.
