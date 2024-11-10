@@ -16,5 +16,5 @@ This program reads from an input file to test how many total squares can be form
 
 ### Instructions
 
-Run the program using `./main` and the program will prompt the user for file names, upon which, the program will use whatever is typed in. For the first prompt, the user should type `Feynman.dat`, and for the second prompt, the user should type `Feynman_output.dat` to see the results of the assigned test cases. If the user wishes to test custom variables, they should fill out `my_input.dat` or use prefilled numers. The responses to the prompt should be `my_input.dat`, and `my_output.dat` respectively.  
+Run the program using `./main` and the program will prompt the user for file names, upon which, the program will use whatever is typed in. For the first prompt, the user should type `Feynman.dat`, and for the second prompt, the user should type `Feynman_output.dat` to see the results of the assigned test cases. If the user wishes to test custom variables, they should fill out `my_input.dat` or use prefilled numbers. The responses to the prompt should be `my_input.dat`, and `my_output.dat` respectively.  
 The user will then find the respective output file containing a table displaying N on the far left column. The following 3 columns display different ways to calculate the summation of squares, but they will be equal.
