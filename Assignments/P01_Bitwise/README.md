@@ -1,4 +1,4 @@
-## Program 1 - HighestBit
+## Program 1 - Bitwise
 ### Rykir Evans
 ### Description:
 
@@ -14,5 +14,5 @@ This program reads in a list of integers and does bitwise manipulation to achiev
 
 ### Instructions
 
-Fill out `HighBits.dat` or use prefilled numers. Run the program using `./main` and the program will prompt the user for file names, upon which it will use whatever is typed in. For the first prompt, the user should type `HighBits.dat`, and for the second prompt, the user should type `Output.dat`.
+Fill out `HighBits.dat` or use prefilled numbers. Run the program using `./main` and the program will prompt the user for file names, upon which it will use whatever is typed in. For the first prompt, the user should type `HighBits.dat`, and for the second prompt, the user should type `Output.dat`.
 The user will then find the output file containing the original integer, the index of it's highest set bit, and a hypothetical number if the next highest bit were set to 1.
