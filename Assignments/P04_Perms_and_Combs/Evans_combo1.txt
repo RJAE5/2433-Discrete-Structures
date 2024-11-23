@@ -1,0 +1,8 @@
+Rykir Evans
+Program 4 - Perms & Combs
+
+P( 5,  2) =                  20
+C(10,  3) =                 120
+P(20, 20) = 2432902008176640000
+
+There were 3 test cases.
