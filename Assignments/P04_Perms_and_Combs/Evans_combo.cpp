@@ -164,7 +164,8 @@ int main()
         {
             case 'P': ans = permutation(N, R); break;
             case 'C': ans = combination(N, R); break;
-            default : outfile << "Invalid operation" << endl;
+            default : ans = -1;
+                      outfile << "Invalid operation:" << endl;
         }
 
         // Display problem and answer
