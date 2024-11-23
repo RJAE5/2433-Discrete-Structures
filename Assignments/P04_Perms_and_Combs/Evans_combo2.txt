@@ -9,5 +9,7 @@ P(10, 10) =             3628800
 C(30, 30) =                  30
 C( 4,  0) =                   1
 P( 5,  0) =                   1
+Invalid operation:
+D( 3,  1) =                  -1
 
-There were 8 test cases.
+There were 9 test cases.
