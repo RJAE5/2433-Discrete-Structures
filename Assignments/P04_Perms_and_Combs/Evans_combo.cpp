@@ -27,10 +27,11 @@
 *                    of test cases performed.
 *
 *  Files:             Evans_combo.cpp  (main)
-*                     Evans_combo1.txt (Output on sample)
-*                     Evans_combo2.txt (Output on mine)
 *                     prog4.dat        (Sample input)
 *                     prog4mine.dat    (Custom input)
+*                     Evans_combo1.txt (Output on sample)
+*                     Evans_combo2.txt (Output on mine)
+*                     
 *                     
 ************************************************************************/
 #include <iostream>
