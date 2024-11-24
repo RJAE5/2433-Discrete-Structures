@@ -265,9 +265,14 @@ long long permutation(int n, int r)
 // combination Definition
 long long combination(int n, int r)
 {
+    //Handle 0
+    if(n == 0)
+        return 1;
+
     // Check for equality
     if(n == r)
         return n;
+        
     // Calculating perm using recursive factorial function
     // Test for relatively small n
     if(n <= 10)
