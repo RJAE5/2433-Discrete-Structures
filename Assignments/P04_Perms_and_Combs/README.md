@@ -1,4 +1,4 @@
-## Program 2 - Square Summation
+## Program 4 - Permutations and Combinations
 ### Rykir Evans
 ### Description:
 
