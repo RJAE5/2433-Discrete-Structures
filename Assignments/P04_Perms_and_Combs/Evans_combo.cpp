@@ -18,9 +18,11 @@
 *                    large. 
 *
 *  Usage:            The `prog4mine.dat` may be manipulated to test
-*                    custome values. The input must be in the form of
-*                    `P X Y` where X is an integer >= 1, and where Y
-*                    is an integer 0 <= Y <= X. The results will be
+*                    custom values. The input must be in the form of
+*                    `P X Y` where the first letter is either a `P`
+*                    for permutation or a `C` for combination.
+*                    X should be an integer >= 1, and Y should be
+*                    an integer 0 <= Y <= X. The results will be
 *                    output to a specified file which will output the
 *                    heading of the program, restate the operation,
 *                    and the result. The file will end with the number
@@ -68,7 +70,6 @@ void openFiles(ifstream&, ofstream&);
  *  
  *  ostream&  - The output stream object
  *  string    - The title of the program
- *  int       - The number of test cases for heading
  *
  * Returns:
  *  void      - Returns nothing, all information passed back by &
@@ -116,7 +117,7 @@ long long recFact(int);
  * Params:
  *  
  *  int       - The total number of objects (Universe)
- *  int       - The subset of objects which are selected
+ *  int       - The size of the subset of objects which are selected
  *
  * Returns:
  *  long long - The permutation result
@@ -133,12 +134,12 @@ long long permutation(int n, int r);
  * Params:
  *  
  *  int       - The total number of objects (Universe)
- *  int       - The subset of objects which are selected
+ *  int       - The size of the subset of objects which are selected
  *
  * Returns:
  *  long long - The combination result
  */
-long long combination(int, int);
+long long combination(int n, int r);
 
 int main()
 {
@@ -179,8 +180,10 @@ int main()
 
     outfile << endl << "There were " << testCases << " test cases.";
 
+    // Close files and end main
     infile.close();
     outfile.close();
+    return 0;
 
 }
 
@@ -224,8 +227,8 @@ long long recFact(int n)
 // iterFact Definition
 long long iterFact(int n)
 {
-    // Check for 0 
-    if(n == 0)
+    // Check for 0 and 1
+    if(n <= 1)
         return 1;
 
     long long temp = n;
